@@ -1,5 +1,5 @@
 import React from "react";
-
+import blank from '../assets/img/blank.png'
 function Home() {
   return (
     <>
@@ -8,7 +8,7 @@ function Home() {
       </div>
       <div id="homePic" class="text-center my-auto mb-4">
         <img
-          src="/assets/img/blank.png"
+          src={blank}
           className="rounded-circle w-100 border-5 border-purple border"
           alt="" //style="background-image: url(data:image/png;base64,{{vbData.userdata.photo}}); background-position:center; background-size:cover;"
         />

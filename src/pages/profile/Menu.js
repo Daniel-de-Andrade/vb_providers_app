@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import blank from '../../assets/img/blank.png'
 function Menu() {
   const [url] = useState("data:image/png;base64,{{vbData.userdata.photo}}");
   return (
@@ -7,7 +7,7 @@ function Menu() {
       <div class="bg-purple px-4 py-5" id="profile">
         <p class="text-center mx-auto" id="profilePic">
           <img
-            src="/assets/img/blank.png"
+            src={blank}
             class="rounded-circle w-100"
             style={{
               backgroundImage: url,

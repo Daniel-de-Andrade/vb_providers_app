@@ -102,6 +102,7 @@ body {
 }
 
 #profileMenu .list-group-item {
+  background-color: #260633;
   border-color:#FFFFFF;
   border-style:  dashed ;
   border-left-width: 0px;
