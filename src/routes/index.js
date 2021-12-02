@@ -15,7 +15,6 @@ import EventList from '../pages/agenda/List'
 import EventRequests from '../pages/agenda/Requests'
 import AdsAvailabilities from '../pages/ads/Availabilities'
 import AdsCreate from '../pages/ads/Create'
-import AdsDelete from '../pages/ads/Delete'
 import AdsDescription from '../pages/ads/Description'
 import AdsDetails from '../pages/ads/Details'
 import AdsList from '../pages/ads/List'
@@ -44,14 +43,13 @@ function VbRoutes() {
           <Route path="/event/requests" element={<EventRequests />} />
           <Route path="/ads/availabilities" element={<AdsAvailabilities />} />
           <Route path="/ads/create" element={<AdsCreate />} />
-          <Route path="/ads/delete" element={<AdsDelete />} />
           <Route path="/ads/description" element={<AdsDescription />} />
           <Route path="/ads/details" element={<AdsDetails />} />
           <Route path="/ads/list" element={<AdsList />} />
           <Route path="/ads/payment" element={<AdsPayment />} />
           <Route path="/ads/photos" element={<AdsPhotos />} />
           <Route path="/ads/place" element={<AdsPlace />} />
-          <Route path="/ads/service" element={<AdsService />} />
+          <Route path="/ads/services" element={<AdsService />} />
         </Routes>
           
       </BrowserRouter>
