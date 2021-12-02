@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+<<<<<<< HEAD
 import Home from "../pages/Home";
 import Login from "../pages/auth/Login";
 import Signup from "../pages/auth/Signup";
@@ -23,13 +24,41 @@ import AdsPayment from "../pages/ads/Payment";
 import AdsPhotos from "../pages/ads/Photos";
 import AdsPlace from "../pages/ads/Place";
 import AdsService from "../pages/ads/Services";
+=======
+import Home from '../pages/Home'
+import Login from '../pages/auth/Login'
+import Signup from '../pages/auth/Signup'
+import RecoverEmail from '../pages/auth/recover/Email'
+import RecoverCode from '../pages/auth/recover/Code'
+import RecoverPassword from '../pages/auth/recover/Password'
+import Notiications from '../pages/Notifications'
+import Menu from '../pages/profile/Menu'
+import ChangePassword from '../pages/profile/Password'
+import UpdateProfile from '../pages/profile/Update'
+import EventDetails from '../pages/agenda/Details'
+import EventList from '../pages/agenda/List'
+import EventRequests from '../pages/agenda/Requests'
+import AdsAvailabilities from '../pages/ads/Availabilities'
+import AdsCreate from '../pages/ads/Create'
+import AdsDescription from '../pages/ads/Description'
+import AdsDetails from '../pages/ads/Details'
+import AdsList from '../pages/ads/List'
+import AdsPayment from '../pages/ads/Payment'
+import AdsPhotos from '../pages/ads/Photos'
+import AdsPlace from '../pages/ads/Place'
+import AdsService from '../pages/ads/Services'
+>>>>>>> andre
 
 function VbRoutes() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+<<<<<<< HEAD
           <Route path="/Home" element={<Home />} />
+=======
+          <Route path="/" element={<Home />} />
+>>>>>>> andre
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/recover/email" element={<RecoverEmail />} />
@@ -44,18 +73,31 @@ function VbRoutes() {
           <Route path="/event/requests" element={<EventRequests />} />
           <Route path="/ads/availabilities" element={<AdsAvailabilities />} />
           <Route path="/ads/create" element={<AdsCreate />} />
+<<<<<<< HEAD
           <Route path="/ads/delete" element={<AdsDelete />} />
+=======
+>>>>>>> andre
           <Route path="/ads/description" element={<AdsDescription />} />
           <Route path="/ads/details" element={<AdsDetails />} />
           <Route path="/ads/list" element={<AdsList />} />
           <Route path="/ads/payment" element={<AdsPayment />} />
           <Route path="/ads/photos" element={<AdsPhotos />} />
           <Route path="/ads/place" element={<AdsPlace />} />
+<<<<<<< HEAD
           <Route path="/ads/service" element={<AdsService />} />
         </Routes>
+=======
+          <Route path="/ads/services" element={<AdsService />} />
+        </Routes>
+          
+>>>>>>> andre
       </BrowserRouter>
     </>
   );
 }
 
+<<<<<<< HEAD
 export default VbRoutes;
+=======
+export default VbRoutes;
+>>>>>>> andre
