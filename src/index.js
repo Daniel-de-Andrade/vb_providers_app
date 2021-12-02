@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import vbRoutes from './routes/index'
+import VbRoutes from './routes/index'
 
 ReactDOM.render(
   <React.StrictMode>
-    <vbRoutes />
+    <VbRoutes />
   </React.StrictMode>,
   document.getElementById("root")
 );
