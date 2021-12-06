@@ -1,0 +1,72 @@
+[
+  {
+    "id": "225",
+    "ads": "100",
+    "day": "Segunda-feira",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  },
+  {
+    "id": "226",
+    "ads": "100",
+    "day": "Terça-feira",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  },
+  {
+    "id": "227",
+    "ads": "100",
+    "day": "Quarta-feira",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  },
+  {
+    "id": "228",
+    "ads": "100",
+    "day": "Quinta-feira",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  },
+  {
+    "id": "229",
+    "ads": "100",
+    "day": "Sexta-feira",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  },
+  {
+    "id": "230",
+    "ads": "100",
+    "day": "Sábado",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  },
+  {
+    "id": "231",
+    "ads": "100",
+    "day": "Domingo",
+    "start": "00:00",
+    "end": "00:00",
+    "status": "Fechado",
+    "updatedOn": null,
+    "createdOn": null
+  }
+]

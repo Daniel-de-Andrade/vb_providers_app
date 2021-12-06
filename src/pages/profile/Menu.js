@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import blank from '../../assets/img/blank.png'
+import blank from "../../assets/img/blank.png";
 function Menu() {
   const [url] = useState("data:image/png;base64,{{vbData.userdata.photo}}");
   return (
@@ -30,7 +30,7 @@ function Menu() {
         </p>
         <ul class="list-group mb-5" id="profileMenu">
           <li class="list-group-item bg-purple py-3">
-            <a href="/profile/update" class="text-white text-decoration-none">
+            <a href="/update-profile" class="text-white text-decoration-none">
               <i class="fas fa-user"></i> Editar perfil
             </a>
           </li>

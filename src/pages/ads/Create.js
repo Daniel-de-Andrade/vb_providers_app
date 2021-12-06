@@ -1,19 +1,23 @@
+import React, { useState } from "react";
+
 function AdsCreate() {
+  const [loading, setLoading] = useState(false);
+
   return (
     <>
-      <div class="p-4 py-5">
+      <div className="p-4 py-5">
         {/* Back button */}
         <a href="/ads">
-          <img src="/assets/img/back.svg" alt="" class="mb-4" />
+          <img src="/assets/img/back.svg" alt="" className="mb-4" />
         </a>
 
-        <h4 class="text-muted text-uppercase text-center pb-3">
-          <i class="fas fa-bullhorn"></i> Criar anúncio
+        <h4 className="text-muted text-uppercase text-center pb-3">
+          <i className="fas fa-bullhorn"></i> Criar anúncio
         </h4>
 
         <form name="adsCreateForm" ng-submit="create(adsData)">
-          <div class="mb-4">
-            <label for="title" class="form-label">
+          <div className="mb-4">
+            <label htmlfor="title" className="form-label">
               Título do anúncio ou Nome do Profissional
             </label>
             <input
@@ -22,16 +26,17 @@ function AdsCreate() {
               ng-model="adsData.title"
               ng-required="true"
               id="title"
-              class="form-control rounded-pill"
+              className="form-control rounded-pill"
             />
           </div>
           <button
-            class="btn btn-success w-100 rounded-pill"
-            ng-disabled="adsCreateForm.$invalid"
+            className="btn btn-success w-100 rounded-pill"
+            onClick={() => {
+              setLoading(true);
+            }}
           >
-            <i class="fas fa-plus"></i>
-            <span ng-show="!loading">Criar anúncio</span>
-            <span ng-show="loading">Criando...</span>
+            <i className="fas fa-plus"></i>
+            {loading ? <span>Criando...</span> : <span>Criar anúncio</span>}
           </button>
         </form>
       </div>
